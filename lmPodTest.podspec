@@ -10,8 +10,7 @@ s.license     = { :type => 'MIT', :file => 'LICENSE' }
  
 s.platform = :ios, '8.0'
 s.requires_arc = true
-s.source_files = 'sourceFile'
-s.public_header_files = 'sourceFile/*'
+s.source_files = 'sourceFile/**/*.h'
  
 s.ios.deployment_target = '8.0'
 end
